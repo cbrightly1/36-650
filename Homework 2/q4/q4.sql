@@ -1,5 +1,5 @@
 INSERT INTO rdata (a,b,x) VALUES
-('apple','banana','3'),
-('sugar','spice','14'),
-('peas','pod','7');
+('car','boat','3'),
+('cat','dog','14'),
+('hat','sock','7');
 SELECT * FROM RDATA;
