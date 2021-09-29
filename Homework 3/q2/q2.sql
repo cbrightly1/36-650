@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT College) from player_bios;
