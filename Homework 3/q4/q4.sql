@@ -22,6 +22,7 @@ UPDATE new_table
 SET position = 'SG/SF' WHERE prl >= 0 and prl < 10.6;
 
 SELECT * from new_table
-LIMIT 10;
+ORDER BY player
+limit 10;
 
 -- DROP TABLE new_table;
