@@ -1,3 +1,16 @@
 #q8
-# Develop Python function that displays 10 records from your employees table. You
-# don’t need to specify an order for displaying the data.
+def print10_data():
+    import psycopg2
+    conn = psycopg2.connect(host="localhost", 
+                            port="5432", 
+                            user="postgres", 
+                            password="DataScienceSQL4!", 
+                            database="postgres")
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM employees limit 10;")
+    for row in cur:
+        print(row)
+    cur.close()
+    conn.close()
+
+print10_data()

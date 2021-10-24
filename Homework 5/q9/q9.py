@@ -1,10 +1,11 @@
 # q9
-# A string is said to be palindrome if it reads the same backward as forward. For e.g.
-# “Kayak” is a palindrome because if we try to read it from backward, it is same as
-# forward. One approach to check if a string is palindrome is to iterate through the
-# string till middle of string and compare a character from back and forth.
-# Use recursion to develop a python function (or functions) that checks if a string is
-# palindrome. The main function should accept a string and returns true/false. You
-# may assume all strings have lower-case letters.
-# Example Input: kayak Output: true
-# Example Input: hello Output: false
+
+def palindrome(string):
+    if len(string) < 2: # stop condition 1
+        return True
+    elif string[0] != string[-1]: # stop condition 2
+        return False
+    return palindrome(string[1:-1]) # decreases the length of the string by one on each side each time
+    
+print(palindrome("kayak"))
+print(palindrome("hello"))

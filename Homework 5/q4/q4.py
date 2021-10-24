@@ -1,6 +1,17 @@
 # q4
-# Write python function that prints triangles in the following form on the screen.
-# Your function should accept the number of rows to be printed from the triangle
-# on the screen. Hint: you may find “while” loops useful in solving this problem.
-# Your function should print “Invalid Input” if you input negative numbers or
-# decimal numbers.
+
+def triangle(rows):
+    if rows < 0 or type(rows) != int:
+        print("Invalid Input")
+        return
+    num_count = 1
+    row_num = 1
+    while row_num <= rows:
+        print(*(range(num_count, num_count + row_num)))
+        num_count += row_num
+        row_num +=1
+    
+triangle(6)
+triangle(-1)
+triangle(1.5)
+triangle(3)
