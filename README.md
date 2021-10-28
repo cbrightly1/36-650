@@ -1,5 +1,5 @@
 # 36-650
-Statistical Computing Repository
+Statistical Computing Repository by Clare Cruz
 
 - Homework 1 - Github Introduction
 
@@ -8,3 +8,5 @@ Statistical Computing Repository
 - Homework 3 - Basic SQL in VS
 
 - Homework 4 - Docker
+
+- Homework 5 - Python Functions
