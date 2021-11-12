@@ -41,7 +41,6 @@ class LinkedList(object):
                 unique_list.append(current.data)
                 previous = current # save last node
             current = current.next #move onto the next one
-
         return self.print_list()
             
 first_node = Node(11)

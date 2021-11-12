@@ -8,4 +8,4 @@
 # the list of stories won't change, it isn't a problem that the data type is immutable. Then, we 
 # know that we want the data type to be super efficient and tuples are more efficient than lists
 # because they cannot be changed. Therefore, a tuple is best here because it is more efficient 
-# efficient than lists and it's immutable attribute is not a problem.
+# than lists and it's immutable attribute is not a problem.
