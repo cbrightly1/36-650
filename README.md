@@ -10,3 +10,5 @@ Statistical Computing Repository by Clare Cruz
 - Homework 4 - Docker
 
 - Homework 5 - Python Functions
+
+- Homework 6 - Python Data Structures
